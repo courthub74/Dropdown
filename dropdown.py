@@ -37,7 +37,7 @@ def getnum(*args):
 		tfield.delete(0.0, END)
 		tfield.insert(INSERT, "Six")
 
-numbers.trace("w", getnum)
+numbers.trace("w", getnum) # Call the StringVar.trace (write, function desired)
 
 # Output Field
 tfield = Text(app, width=20, height=5, font="Arial 20 bold")
